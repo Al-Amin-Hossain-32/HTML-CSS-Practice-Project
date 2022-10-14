@@ -1,0 +1,57 @@
+body {
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+}
+.form {
+  width: 20rem;
+  background: rgba(0, 0, 0, 0.3);
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+.form h2 {
+  text-align: center;
+  padding: 0;
+  color: White;
+}
+.form label {
+  color: white;
+  padding: 5px 0;
+  display: block;
+  font-size: 20px;
+  font-family: tahoma;
+  cursor: pointer;
+}
+.form input {
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 8px 0;
+  padding-left: 8px;
+  border: 1px solid yellow;
+  display: block;
+  background: transparent;
+}
+.form input[type="submit"] {
+  width: 200px;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 10px;
+  margin: 10px auto;
+  color: White;
+}
+
+.form label,
+p {
+  color: #fff;
+  font-family: tahoma;
+  font-size: 18px;
+}
+
+.form a {
+  color: yellow;
+}
+
+.form input[type="submit"]:hover {
+  background-color: rgb(140, 75, 184);
+}
